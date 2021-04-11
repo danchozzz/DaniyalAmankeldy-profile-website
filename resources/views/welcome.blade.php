@@ -39,8 +39,8 @@ h1, h2, h3, h4, h5, h6 {
    flex-direction: column;
    justify-content: center;
    width: 100%; 
-   height: 100vh;
-   background:url("http://2.bp.blogspot.com/-9TQ2lzdq9Fg/U_nH6eGESrI/AAAAAAAAAZA/ZQ3ftUbTs1g/s1600/standoffvers2.jpg") center no-repeat;
+   height: 120vh;
+   background:url("https://i.pinimg.com/originals/02/1a/a7/021aa72493f24390fc53bb457892f9c9.jpg") center no-repeat;
    background-size: cover;
    -webkit-background-size: cover;
    
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Header */
 .header {
-   background-color: grey;
+   background-color: #939598;
    border: 3px solid white;
    padding-top: 30px;
    padding-bottom: 30px;
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu a:hover {
-   color: black;
+   color: white;
 }
 
 .menu li {
@@ -160,16 +160,16 @@ h1, h2, h3, h4, h5, h6 {
          <div class="header__inner">
 
             <div class="header__logo">
-               <h1>Тарих<h1>
+               <h1>Daniyal<h1>
             </div>
 
             
 
             <div class="nav">
                <ul class="menu">
-                  <li><a href=" {{ route('welcome') }} ">Тақырып</a></li>
-                  <li><a href="{{ route('2') }}">Ғұндар жайлы</a></li>
-                  <li><a href="{{ route('3') }}">Мекендеген жерлері</a></li>
+                  <li><a href=" {{ route('welcome') }} ">Main</a></li>
+                  <li><a href="{{ route('2') }}">About me</a></li>
+                  <li><a href="{{ route('3') }}">Photo</a></li>
                </ul>
             </div>
 
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
    <div class="intro">
       <div class="container">
          <div class="intro__inner">
-            <h1 class="intro__title">Ғұндар</h1>
+            <h1 class="intro__title">Dancho_zzz</h1>
          </div>
       </div>
    </div>
