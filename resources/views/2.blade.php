@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Header */
 .header {
-   background-color: grey;
+   background-color: #939598;
    border: 3px solid white;
    padding-top: 30px;
    padding-bottom: 30px;
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu a:hover {
-   color: black;
+   color: white;
 }
 
 .menu li {
@@ -162,15 +162,15 @@ h1, h2, h3, h4, h5, h6 {
          <div class="header__inner">
 
             <div class="header__logo">
-               <h1>Тарих<h1>
+               <h1>Daniyal<h1>
             </div>
 
 
             <div class="nav">
             <ul class="menu">
-                  <li><a href=" {{ route('welcome') }} ">Тақырып</a></li>
-                  <li><a href="{{ route('2') }}">Ғұндар жайлы</a></li>
-                  <li><a href="{{ route('3') }}">Мекендеген жерлері</a></li>
+                  <li><a href=" {{ route('welcome') }} ">Main</a></li>
+                  <li><a href="{{ route('2') }}">About me</a></li>
+                  <li><a href="{{ route('3') }}">Photo</a></li>
                </ul>
             </div>
 
@@ -184,38 +184,38 @@ h1, h2, h3, h4, h5, h6 {
       <div class="container">
 
          <div class="about__subtitle">
-            <h1>Ғұн мемлекеті</h1>
+            <h1>Dancho_zzz</h1>
          </div>
 
          <div class="about__titles">
-            <h1>Тарихы</h1>
+            <h1>Information about me</h1>
          </div>
 
          <div class="about__text">
-            <p>Біздің заманымызға дейін 1 мыңжылдықтың 2-жартысынан бастап Еуразияның этникалық-саяси тарихында Орталық Азияның көшпелі тайпалары ролі артты. Біздің заманымызға дейін 4-3 ғасырларда Қытайдың солтүстігі мен Орталық Азияда ғұндар деген тайпалар бірлестігі (сюнну, дунху) пайда болды. Нақты айтқанда, біздің заманымыздың дейін 209 жылы бой көтеріп, біздің заманымызда 216 жылы дейін дәурен сүрді.</p>
-            <p>Шаңырағын көтерген әйгілі Мөде (Мотэ) батыр. Біздің заманымызға дейін 209 жылы Мөде әкесін өлтіріп, таққа ие болады.Осы заманнан бастап, ғұн мемлекеті күшейе бастады (атап айтсақ, біздің заманымызға дейін 188 жылы ғұндар өзіне қытай императоры Гао-Диды бағындырады, хань династиясы ғұндарға салық төлеп тұрғаны белгілі. Юечжи, ловфань, байянь, үйсүн тағы да басқа тайпалардың жерін тартып алады.)Ғұндар Байкалдан Тибетке, Шығыс Түркістаннан Хуанхэ өзеніне дейінгі жерде мемлекет құрды. Оның әскері 300-400 мың болды.</p>
+            <p>My name is Amanknldy Daniyal! I am 19 years old. I was born in the city of Ekibastuz. I graduated from the Zerde school. I entered the University named after Suleyman Demirel.І like programming</p>
+            <p> I have a big family. I am a senior at home, I have a brother and a sister. I am very sociable and love animals.</p>
          </div>
 
          <div class="about__titles">
-            <h1>Шаруашылығы</h1>
+            <h1>balalalalalalala</h1>
          </div>
 
          <div class="about__text">
-            <p>Шаруашылық-мәдени типінің негізі - көшпелі мал шаруашылығы. Мал өсіру, әсіресе жылқы өсіру басты рөл атқарды. Сондай-ақ қой өсіру, аң аулау, егіншілік дамыды.Ғұндардың қол өнер кәсібі күшті дамыған (металдан, сүйек пен мүйізден, тас пен саздан, ағаштан, керамикадан жасалды). Сауда дамығандығын жібек маталар, айналар, нефриттен істелген бұйымдар көрсетеді.Олар малдың барлық түрлерін өсірген. Ғұндардың негізгі баспанасы киіз үйлер болған. Ғұндарда бұйымының бетіне түрлі түсті заттарды жапсыру стилі пайда болды, тарихта ол полихромдық стиль деп аталған. Осы стиль Орталық Қазақстанда дамыған. Зерлеу әдісімен пайдаланды. Бұйымдарды безендіру үшін негізгі бейне жабайы аңдар болған.</p>
+            <p>blbllblbllblblbllbblbllblblbbllblblblbllblblblblblblbllbblblblblbllblblblblblblbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbblllllllllllllllllllllllllllllllllllllllllllllllbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbblllllllllllbbbbbbbbbl</p>
          </div>
 
          <div class="about__titles">
-            <h1>Егіншілік кəсібі мен қоныстары</h1>
+            <h1>foofoffofofofofoofoofo</h1>
          </div>
 
          <div class="about__text">
-            <p>Ғүндардың ішінде отырықшы тұрмыс кешіп, егіншілікпен шұғылданғандары да болған. Ғұндар дəнді дақылдың ішінде тарыны көп өсірген. Егіншіліктің жақсы дамығанын білдіретін құрал-саймандар табылған. </p>
-            <p>Мысалға:</p>
+             <p>nonononononononoonononononononofoffkofkfokfofkfofkfokfofkofkfokfofkofkfokfokfofkofkfokfofkofkfokfokfofkofkfokfokfofkofkkkkoooooooooooooooooookoooooooooooooooooo</p>
+            <p>For example:</p>
             <ul class="about__text">
-               <li>темір орақ</li>
-               <li>соқа тістері</li> 
-               <li>қол диірмендер</li>
-               <li>дəнүккіштер</li>
+               <li>totoototo</li>
+               <li>lplplplplp</li> 
+               <li>gghgghhghgg</li>
+               <li>ereprlerplrprl</li>
             </ul>
          </div>
 
