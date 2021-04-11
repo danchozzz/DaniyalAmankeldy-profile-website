@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu a:hover {
-   color: black;
+   color: white;
 }
 
 .menu li {
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 
             <div class="nav">
             <ul class="menu">
-                  <li><a href=" {{ route('welcome') }} ">Тақырып</a></li>
+                  <li><a href=" {{ route('welcome') }} ">56</a></li>
                   <li><a href="{{ route('2') }}">Ғұндар жайлы</a></li>
                   <li><a href="{{ route('3') }}">Мекендеген жерлері</a></li>
                </ul>
