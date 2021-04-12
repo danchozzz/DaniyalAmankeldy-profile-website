@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 use app\Models\Post;
-use app\Http\Controllers\postcontroller;
+use App\Http\Controllers\postcontroller;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
