@@ -8,9 +8,9 @@ use app\Models\Post;
 class postcontroller extends Controller
 {
     public function index() {
-        $posts = Post::all();
+        $post = Post::all();
 
-        return view('post.index')->with(['posts' =>$posts]);
+        return view('post.index')->with(['post' =>$post]);
 
     }
 }

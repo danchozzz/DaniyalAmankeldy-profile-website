@@ -2,9 +2,9 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>posts</title>
+  <title>post</title>
  </head>
  <body>
-    {{$posts}}
+    {{$post}}
  </body>
 </html>
