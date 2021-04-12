@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
-use App\Models\Post;
+use app\Models\Post;
+use app\Http\Controllers\postcontroller;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,7 +32,4 @@ Route::get('post/create', function() {
     ]);
 });
 
-Route::get('post', function() {
-    $post = post::find(1);
-    return $post;
-});
+Route::get('post', [postcontroller::class,'index']);
