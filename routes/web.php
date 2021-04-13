@@ -33,3 +33,7 @@ Route::get('post/create', function() {
 });
 
 Route::get('post', [postcontroller::class,'index']);
+Route::get('post/create', function() {
+    return view('post.create');
+});
+Route::post('post/create', [postcontroller::class, 'store'])->name('add-post');
