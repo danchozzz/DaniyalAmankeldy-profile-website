@@ -37,3 +37,4 @@ Route::get('post/create', function() {
     return view('post.create');
 });
 Route::post('post/create', [postcontroller::class, 'store'])->name('add-post');
+Route::get('post/{id}', [postcontroller::class, 'get_post']);
