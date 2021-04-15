@@ -2,8 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
-use app\Models\Post;
+use App\Models\Post;
 use App\Http\Controllers\postcontroller;
+use App\Models\UserInfo;
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,3 +40,9 @@ Route::get('post/create', function() {
 });
 Route::post('post/create', [postcontroller::class, 'store'])->name('add-post');
 Route::get('post/{id}', [postcontroller::class, 'get_post']);
+
+Route::get('/userInfo', [UserController::class, 'index']);
+Route::get('/userInfo/create', function(){
+    return view('info.create');
+});
+Route::post('userInfo/create', [UserController::class, 'store'])->name('add-user');
