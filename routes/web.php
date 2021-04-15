@@ -6,6 +6,7 @@ use App\Models\Post;
 use App\Http\Controllers\postcontroller;
 use App\Models\UserInfo;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\MailController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -46,3 +47,5 @@ Route::get('/userInfo/create', function(){
     return view('info.create');
 });
 Route::post('userInfo/create', [UserController::class, 'store'])->name('add-user');
+
+Route::get('mail/send', [MailController::class, 'send']);
