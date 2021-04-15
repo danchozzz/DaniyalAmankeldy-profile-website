@@ -7,6 +7,7 @@ use App\Http\Controllers\postcontroller;
 use App\Models\UserInfo;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\MailController;
+use App\Http\Controllers\LocalizatioController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,7 +19,8 @@ use App\Http\Controllers\MailController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/{lang}', function ($lang) {
+    App::setlocale($lang);
     return view('welcome');
 })->name('welcome');
 Route::get('/2', function () {
@@ -49,3 +51,4 @@ Route::get('/userInfo/create', function(){
 Route::post('userInfo/create', [UserController::class, 'store'])->name('add-user');
 
 Route::get('mail/send', [MailController::class, 'send']);
+

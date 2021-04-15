@@ -160,14 +160,14 @@ h1, h2, h3, h4, h5, h6 {
          <div class="header__inner">
 
             <div class="header__logo">
-               <h1>Daniyal<h1>
+               <h1>@lang('lang.name')<h1>
             </div>
 
             
 
             <div class="nav">
                <ul class="menu">
-                  <li><a href=" {{ route('welcome') }} ">Main</a></li>
+                  <li><a href=" {{ route('welcome' , ['lang' => App::getLocale()]) }} ">Main</a></li>
                   <li><a href="{{ route('2') }}">About me</a></li>
                   <li><a href="{{ route('3') }}">Photo</a></li>
                </ul>
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
    <div class="intro">
       <div class="container">
          <div class="intro__inner">
-            <h1 class="intro__title">Dancho_zzz</h1>
+            <h1 class="intro__title">@lang('lang.inst')</h1>
          </div>
       </div>
    </div>

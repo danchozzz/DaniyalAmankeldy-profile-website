@@ -1,0 +1,1 @@
+<?php return [ 'name' => 'Daniyal','inst' => 'my instagram Dancho_zzz'  ]?>
